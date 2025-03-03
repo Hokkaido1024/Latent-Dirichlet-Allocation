@@ -13,7 +13,9 @@ Additionally, stopword filtering is required for effective data cleaning. If the
 Data Transformation：
 After text preprocessing, the data is converted into the Bag of Words (BoW) format using Dictionary and doc2bow(), making it suitable for LDA modeling. Before feeding the data into LDA, determining an optimal number of topics is essential. We first train the LDA model and evaluate its topic quality using CoherenceModel, which calculates the coherence score. A higher coherence score indicates better topic quality.
 
-Based on the coherence score results, we select the optimal number of topics and retrain the LDA model to obtain the final topic distribution for the dataset.pip install gensim
+Based on the coherence score results, we select the optimal number of topics and retrain the LDA model to obtain the final topic distribution for the dataset.
+
+pip install gensim
 
 Visualization：
 Finally, we use Multidimensional Scaling (MDS) to visualize the topic distribution across documents and assess the effectiveness of the LDA model.
