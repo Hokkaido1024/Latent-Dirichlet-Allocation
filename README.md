@@ -19,6 +19,7 @@ Visualization：
 Finally, we use Multidimensional Scaling (MDS) to visualize the topic distribution across documents and assess the effectiveness of the LDA model.
 
 conda install matplotlib
+
 pip install pyLDAvis gensim_models
 
 This code is implemented using the text crawled from web-crawler-for-chinatimes to perform LDA modeling. If you want to use your own dataset, please remember to modify the `file_path` or adjust the data loading method. If you encounter any issues, feel free to reach out, and I'll make changes when possible.
