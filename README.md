@@ -7,7 +7,9 @@ conda install python ==3.7.16
 Preprocessing (Text Preprocessing)：
 
 If you want to uncover latent topics in a text corpus, you can use LDA for Topic Modeling. Since this project works with Chinese text, we utilize ckip-transformers, which provides Traditional Chinese Transformers models and NLP tools, including CkipWordSegmenter, CkipPosTagger, and CkipNerChunker. For more details, please refer to:
-https://github.com/ckiplab/ckip-transformers?tab=readme-ov-filepip install ckip-transformers
+https://github.com/ckiplab/ckip-transformers?tab=readme-ov-file
+
+pip install ckip-transformers
 
 Additionally, stopword filtering is required for effective data cleaning. If the predefined stopword list does not meet your needs, you can modify it accordingly. The stopword list is sourced from: https://github.com/goto456/stopwords/blob/master/cn_stopwords.txt
 
